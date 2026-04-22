@@ -10,7 +10,7 @@
     "test": "test"
   },
   "scripts": {
-    "start": "pm2-runtime ecosystem.config.js --env production",
+    "start": "pm2-runtime ecosystem.config.cjs --env production",
     "debug": "DEBUG=* node index.js",
     "dev": "nodemon index.js",
     "test": "mocha --experimental-vm-modules ./test/*.js"
